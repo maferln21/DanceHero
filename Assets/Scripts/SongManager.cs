@@ -8,16 +8,24 @@ public class SongManager : MonoBehaviour
     [SerializeField]
     private UnityEvent onSongStart;
     [SerializeField]
+    private UnityEvent onSongSelected;
+    [SerializeField]
     private UnityEvent onSongEnd;
-    public void PlaySong(SongData songData)
+    private SongData currentSongData;
+    public void SelectSong(SongData songData)
     {
-        characterAnimator.Play(songData.animationName);
-        SoundManager.instance.PlayMusic(songData.songName);
-        onSongStart?.Invoke();
+        currentSongData = songData;
+        onSongSelected?.Invoke();
     }
     public void StopSong()
     {
             SoundManager.instance.StopMusic();
             onSongEnd?.Invoke();
     }
-}
+    public void StartSong()
+    {
+        characterAnimator.Play(currentSongData.animationName);
+        SoundManager.instance.PlayMusic(currentSongData.songName);
+        onSongStart?.Invoke();    
+    }
+}    
