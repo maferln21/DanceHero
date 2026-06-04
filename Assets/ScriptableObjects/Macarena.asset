@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c355a351626332b44a85fc0f818937e1, type: 3}
-  m_Name: GangnamStyle
+  m_Name: Macarena
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  animationName: Baile_01
-  songName: GangnamStyle
-  noteChart: {fileID: 4900000, guid: c550da6609af80748a12d050a0d95730, type: 3}
+  animationName: Baile_04
+  songName: Macarena
+  noteChart: {fileID: 4900000, guid: 4e10ddb0427aec2459fd1f59c79f05e8, type: 3}
   speed: 400

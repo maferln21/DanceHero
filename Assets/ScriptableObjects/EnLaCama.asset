@@ -15,4 +15,4 @@ MonoBehaviour:
   animationName: Baile_03
   songName: EnLaCama
   noteChart: {fileID: 4900000, guid: f1e0363f9490e3c49bcac1812ce3c3a7, type: 3}
-  speed: 300
+  speed: 400
