@@ -423,7 +423,7 @@ MonoBehaviour:
         m_MethodName: IInstantiateObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2353600328335939635, guid: ceec7516237b4104b94300043ca39784, type: 3}
+          m_ObjectArgument: {fileID: 2360655870356088567, guid: 57a776ff377f3c44e8403e2067a4d41f, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3589,7 +3589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c087e67d0f7f214687b4a5e26273610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pool
-  prefab: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
+  prefab: {fileID: 2360655870356088562, guid: 57a776ff377f3c44e8403e2067a4d41f, type: 3}
 --- !u!1 &1630784817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,7 +3953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c087e67d0f7f214687b4a5e26273610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pool
-  prefab: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784, type: 3}
+  prefab: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
 --- !u!4 &1633310366
 Transform:
   m_ObjectHideFlags: 0
